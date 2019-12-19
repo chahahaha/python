@@ -6,7 +6,7 @@ number = range(1,46)
 
 # 6개의 숫자를 뽑아 출력해주는 프로그램 작성
 lotto = random.sample(number, 6)  #중복없이 범위내에서 출력
-print(sorted(lotto))
+print(sorted(lotto)) #sorted의 역할은 정렬기능
 
 # alt + shift + 위 or 아래 방향키 : 복사
 # alt + 위 or 아래 방향키 : 해당 문장 이동
